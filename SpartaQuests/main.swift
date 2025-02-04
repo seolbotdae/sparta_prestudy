@@ -7,5 +7,16 @@
 
 import Foundation
 
-print("Hello, World!")
 
+//runArray()
+
+//runQueue()
+
+//runStack()
+
+//runARC()
+
+
+q2step1()
+
+//q2step2()
