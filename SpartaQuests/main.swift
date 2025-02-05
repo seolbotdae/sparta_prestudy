@@ -40,4 +40,8 @@ import Foundation
 
 //q3Step1()
 //q3Step2()
+
+//q4Step1()
+//q4Step2()
 dispatchMain()
+
