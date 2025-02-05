@@ -51,8 +51,7 @@ import Foundation
 
 //class Person {
 //    let name: String
-//
-//    // 반려동물이 갑자기 해제.. 될수도 있기 때문..
+//    // 약한 참조
 //    weak var pet: Pet?
 //
 //    init(name: String, pet: Pet? = nil) {
@@ -67,7 +66,6 @@ import Foundation
 //
 //class Pet {
 //    let name: String
-//
 //    var owner: Person?
 //
 //    init(name: String, owner: Person? = nil) {
@@ -127,7 +125,6 @@ import Foundation
 //    }
 //}
 //
-//
 //func runARC() {
 //    var p: Person? = Person(name: "Seol", hobby: "Swift")
 //    print(p?.indroduce())
@@ -175,7 +172,5 @@ import Foundation
 //    let closure = { [weak test1, unowned test2] in
 //        print(test1?.test, test2.test)
 //    }
-//    
-//    
 //}
 //
