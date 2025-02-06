@@ -27,7 +27,6 @@ import Foundation
 //handleResponse(.failure(error: "서버 내부 오류", statusCode: 500))
 //handleResponse(.loading)
 
-
 /// GCD 코드
 //runGCD()
 //runSync()
@@ -43,5 +42,12 @@ import Foundation
 
 //q4Step1()
 //q4Step2()
-dispatchMain()
+//dispatchMain()
 
+//combinePractice1()
+//combinePractice2()
+//combinePractice3()
+//combinePractice4()
+
+//q5Step1()
+//q5Step2()
