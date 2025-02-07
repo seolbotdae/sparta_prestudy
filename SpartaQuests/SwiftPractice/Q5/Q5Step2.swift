@@ -11,12 +11,12 @@ import Combine
 func q5Step2() {
     // 1. URLSession과 Combine 사용
     let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1")!
-    
+
     let configuration = URLSessionConfiguration.default
     let session = URLSession(configuration: configuration)
-    
+
     var sessionCancellable: AnyCancellable?
-    
+
     sessionCancellable = session
         .dataTaskPublisher(for: url)
         .tryMap() { element -> Data in
@@ -24,7 +24,7 @@ func q5Step2() {
                   httpResponse.statusCode == 200 else {
                 throw URLError(.badServerResponse)
             }
-            print(element.data)
+            
             return element.data
         }
         .decode(type: Response.self, decoder: JSONDecoder())

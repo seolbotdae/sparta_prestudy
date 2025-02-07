@@ -1,5 +1,5 @@
 //
-//  Q3Step2.swift
+//  Q4Step2.swift
 //  SpartaQuests
 //
 //  Created by Seol WooHyeok on 2/5/25.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Q3Step2 {
+enum Q4Step2 {
     /// 2. 제네릭 스택 구현
     struct Stack<T> {
         var elements: [T] = []
@@ -26,7 +26,7 @@ enum Q3Step2 {
     }
 }
 
-func q3Step2() {
+func q4Step2() {
     /// 1. 제네릭 함수 작성
     func swapValues<T>(_ a: inout T, _ b: inout T) {
         var temp: T
@@ -42,7 +42,7 @@ func q3Step2() {
     print(a, b)
     
     /// 2. 제네릭 스택 구현
-    var intStack = Q3Step2.Stack<Int>()
+    var intStack = Q4Step2.Stack<Int>()
     intStack.push(1)
     intStack.push(2)
     print(intStack.pop() ?? "empty")

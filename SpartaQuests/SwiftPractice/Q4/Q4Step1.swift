@@ -1,5 +1,5 @@
 //
-//  Q3Step1.swift
+//  Q4Step1.swift
 //  SpartaQuests
 //
 //  Created by Seol WooHyeok on 2/5/25.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-func q3Step1() {
+func q4Step1() {
     /// 1. 비동기 데이터 처리
     let group = DispatchGroup()
     
@@ -28,4 +28,6 @@ func q3Step1() {
     DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
         print("데이터 로드 완료")
     }
+    
+    dispatchMain()
 }

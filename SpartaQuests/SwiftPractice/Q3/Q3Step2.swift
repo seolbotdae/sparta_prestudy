@@ -1,5 +1,5 @@
 //
-//  Q4Step2.swift
+//  Q3Step2.swift
 //  SpartaQuests
 //
 //  Created by Seol WooHyeok on 2/5/25.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Q4Step2 {
+enum Q3Step2 {
     /// 1. 동물 클래스 설계
     class Animal {
         var name: String
@@ -35,8 +35,8 @@ enum Q4Step2 {
 }
 
 
-func q4Step2() {
-    typealias T = Q4Step2
+func q3Step2() {
+    typealias T = Q3Step2
     
     var animals: [T.Animal] = [T.Dog(name: "dog"), T.Cat(name: "cat")]
     

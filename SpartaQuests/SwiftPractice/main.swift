@@ -51,3 +51,11 @@ import Foundation
 
 //q5Step1()
 //q5Step2()
+
+
+//q3Step2()
+
+//q4Step1()
+//q4Step2()
+
+
